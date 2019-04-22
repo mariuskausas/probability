@@ -35,7 +35,7 @@ def plot_bivariate_gaussian(mu_x, sigma_x, mu_y, sigma_y, cov):
     # Plot a filled contour
     fig, ax = plt.subplots()
     cs = ax.contourf(X, Y, Z, cmap=cm.viridis, levels=N)
-    plt.savefig("bivariate_gaussian.png", dpi=300)
+    plt.savefig("bivariate_gaussian.png", dpi=100)
     plt.close()
 
 plot_bivariate_gaussian(mu_x=0, sigma_x=1, mu_y=0, sigma_y=1, cov=0)
