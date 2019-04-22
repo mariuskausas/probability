@@ -38,4 +38,4 @@ def plot_bivariate_gaussian(mu_x, sigma_x, mu_y, sigma_y, cov):
     plt.savefig("bivariate_gaussian.png", dpi=300)
     plt.close()
 
-plot_bivariate_gaussian(0, 1, 0, 1, 0)
+plot_bivariate_gaussian(mu_x=0, sigma_x=1, mu_y=0, sigma_y=1, cov=0)
